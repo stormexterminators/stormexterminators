@@ -1,0 +1,41 @@
+body {
+    text-align:center;
+    background-image: url('storm-sized.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+P{
+    width:700px;
+    margin-left:auto;
+    margin-right:auto;   
+}
+
+#main_table{
+    width:900px;
+    border: 1px solid #000;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:20px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+#inner_table{
+    width:700px;
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse: separate;
+    border-spacing:10px 15px;
+}
+
+td.photo{
+    width:100px;
+    border:1px solid black;
+    height:100px;
+}
+
+td.desc{
+
+    border:1px solid black;
+    height:100px;
+}
